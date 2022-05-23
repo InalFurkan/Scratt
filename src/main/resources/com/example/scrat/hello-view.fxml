@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="431.0" prefWidth="756.0" style="-fx-background-color: #282c43;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="41.0" layoutY="291.0" mnemonicParsing="false" text="Sil" />
+      <Button layoutX="168.0" layoutY="291.0" mnemonicParsing="false" text="Enter" />
+      <Button layoutX="92.0" layoutY="291.0" mnemonicParsing="false" text="Karıştır" />
+      <AnchorPane layoutX="325.0" layoutY="21.0" prefHeight="283.0" prefWidth="281.0" style="-fx-background-color: #15182D;" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="14.0" layoutY="377.0" stroke="BLACK" strokeType="INSIDE" width="733.0" />
+   </children>
+</Pane>
