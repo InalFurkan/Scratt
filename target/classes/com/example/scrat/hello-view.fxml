@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="625.0" style="-fx-background-color: #282c43;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="750.0" style="-fx-background-color: #282C43;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="41.0" layoutY="291.0" mnemonicParsing="false" text="Sil" />
-      <Button layoutX="168.0" layoutY="291.0" mnemonicParsing="false" text="Enter" />
-      <Button layoutX="92.0" layoutY="291.0" mnemonicParsing="false" text="Karıştır" />
-      <AnchorPane layoutX="325.0" layoutY="21.0" prefHeight="283.0" prefWidth="281.0" style="-fx-background-color: #15182D;" />
-      <AmbientLight color="CHARTREUSE" layoutX="104.0" layoutY="81.0" lightOn="true" />
+      <Button layoutX="21.0" layoutY="330.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="57.0" style="-fx-background-color: #94B1FB;" text="Delete">
+         <font>
+            <Font name="Javanese Text" size="12.0" />
+         </font></Button>
+      <Button layoutX="95.0" layoutY="330.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="67.0" style="-fx-background-color: #94B1FB;" text="Mix">
+         <font>
+            <Font name="Javanese Text" size="12.0" />
+         </font></Button>
+      <Button layoutX="181.0" layoutY="330.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="57.0" style="-fx-background-color: #94B1FB;" text="Enter">
+         <font>
+            <Font name="Javanese Text" size="12.0" />
+         </font></Button>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#94b1fb" height="33.0" layoutX="11.0" layoutY="409.0" stroke="BLACK" strokeType="INSIDE" width="728.0" />
+      <Label layoutX="21.0" layoutY="417.0" prefHeight="17.0" prefWidth="423.0" text="Found : 8 / 46     Points : 26 /239     Panagrams : 1 / 3">
+         <font>
+            <Font name="JetBrains Mono Regular" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#15182d" height="390.0" layoutX="266.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="473.0" />
+      <SVGPath content="M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 " fill="#ffba00" layoutX="-371.0" layoutY="-147.0" />
+      <SVGPath content="M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 " fill="#ec6c6c" layoutX="-336.0" layoutY="-105.0" />
+      <SVGPath content="M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 " fill="#ec6c6c" layoutX="-406.0" layoutY="-105.0" />
+      <SVGPath content="M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 " fill="#ec6c6c" layoutX="-311.0" layoutY="-147.0" />
+      <SVGPath content="M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 " fill="#ec6c6c" layoutX="-406.0" layoutY="-190.0" />
+      <SVGPath content="M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 " fill="#ec6c6c" layoutX="-336.0" layoutY="-190.0" />
+      <SVGPath content="M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 M 500 400 L 525 385 L 525 360 L 500 345 L 475 360 L 475 385 L 500 400 " fill="#ec6c6c" layoutX="-431.0" layoutY="-147.0" />
+      <Separator layoutX="29.0" layoutY="123.0" prefWidth="200.0" />
+      <TextField layoutX="29.0" layoutY="75.0" prefHeight="33.0" prefWidth="200.0" />
    </children>
 </Pane>
